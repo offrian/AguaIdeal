@@ -9,25 +9,6 @@ function litroAgua() {
     text = "" + result + "L";
 
     document.getElementById("resultfim").innerHTML = text;
-    
-    var height = document.getElementById('height').value
-    var final= kg / height * 2;
-    var imc= final * 100;
-    if(imc<18.5){
-      window.alert("frango desnutrido")
-    }
-    else if (imc<24.9){
-      window.alert("frango")
-    }
-    else if (imc<29.9){
-      window.alert("frango graudo")
-    }
-    else if (imc<39.9){
-      window.alert("mini monstro")
-    }
-    else if (imc>39.9){
-      window.alert("monstro")
-    }
 }
 
 function limpar(){
